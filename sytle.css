@@ -1,0 +1,166 @@
+.black {
+    color: aliceblue;
+    width: 75%;
+    height: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.navbar a {
+    padding: 10px;
+    color: darkgray;
+}
+
+.navbar,
+.information {
+    display: inline;
+}
+
+.container {
+    width: 100%;
+    background-color: black;
+}
+
+.information a {
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+.basliq {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    height: 100px;
+    margin: auto;
+}
+
+
+
+.valyuta {
+    background-color: aliceblue;
+}
+
+
+.logo,
+.valyuta,
+.money {
+    display: inline;
+}
+
+
+.money {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.money a {
+    text-decoration: none;
+}
+
+.dollar,
+.euro,
+.rubl,
+.lira {
+
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+
+.dollar {
+    color: #30336b;
+    border-color: #30336b;
+}
+
+.euro {
+    color: #c23616;
+    border-color: #c23616;
+}
+
+.rubl {
+    color: #00a8ff;
+    border-color: #00a8ff;
+}
+
+.lira {
+    color: #fa8231;
+    border-color: #fa8231;
+}
+
+.dollar:hover {
+    background-color: #30336b;
+    color: aliceblue;
+}
+
+.euro:hover {
+    background-color: #c23616;
+    color: aliceblue;
+}
+
+.rubl:hover {
+    background-color: #00a8ff;
+    color: aliceblue;
+}
+
+.lira:hover {
+    background-color: #fa8231;
+    color: aliceblue;
+}
+
+
+.count {
+    color: black;
+    padding-top: 10px;
+}
+
+
+
+
+.menu {
+    width: 100%;
+    background-color: red;
+}
+
+
+.sonluq {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    padding: 25px 0px;
+    font-size: 18px;
+
+}
+
+
+.general a {
+    color: aliceblue;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 300;
+
+}
+
+.general a:hover {
+    border-bottom: 5px solid white;
+    padding-bottom: 21px;
+}
+
+.search a {
+    color: aliceblue;
+}
